@@ -1,13 +1,196 @@
-body {
+*{
   margin: 0;
+  padding:  0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* border: 1px solid black; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 2 */
+
+/* .head{
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(255 107 136);
+  margin: 3rem;
+}
+
+.center{
+  width: auto;
+  text-align: center;
+}
+
+img{
+  width: 250px;
+  height: 300px;
+} */
+
+
+/* 4. challenge */
+/* 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cyan;
+  height: 100vh;
+} */
+
+/* .div{
+  padding: 13px 25px 15px 25px;
+  border-radius: 41px;
+  background-color: #86ffff;
+  box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+}  */
+
+/* 5 Components in react */
+/* #root{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  background-color: lightblue;
+}
+nav{
+  background-color: brown; 
+  margin: 0.2% 0%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  border-bottom: 1px solid gray;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 0px;
+}
+
+li{
+  margin: 0pc 10px;
+  font-weight: bold;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+} */
+
+
+/* 6 challenge 4 with components */
+/* nothing */
+
+
+/* 7 challenge calculator with component */
+/* nothing */
+
+/* 8 props in react */
+/* body {
+  background-color: aliceblue;
+}
+
+.display-img{
+  width: 16em;
+  height: 12em;
+  border-top-left-radius: 1.1em;
+  border-top-right-radius: 1.1em;
+}
+
+.card{
+  width: fit-content;
+  border-radius: 1.1em;
+  background-color: white;
+  margin: 4rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+.card:hover {
+  transform: scale(1.04); 
+}
+
+.card-details {
+  padding: 6% 9%;
+}
+
+
+span,h3,button{
+  display: block;
+  margin: .4rem 0rem;
+}
+
+span {
+  font-size: small;
+  font-weight: 500;
+  color: darkgray;
+}
+
+button {
+  padding: 0rem .4rem;
+  cursor: pointer;
+  color: lightslategrey;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0em;
+  color: darkgray;
+  font-weight: 400;
+} */
+
+
+/* 9 hook in react */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  min-height: 100vh;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  background-color: #ffffff85;
+  border: none;
+  box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background: lightseagreen;
+  cursor: pointer;
+}
+
+button:active{
+  background: rgb(34, 134, 129);
+  /* border : 2px solid black; */
 }
