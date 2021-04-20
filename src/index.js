@@ -155,11 +155,56 @@ import './index.css';
 // );
 
 
-// 9 hook in react
-import {StateHook} from './HookCompo'
-ReactDOM.render(
-<>
-    <StateHook></StateHook>
-</>,
-document.getElementById('root')
-);
+// 9 hook useState in react
+// import {StateHook} from './HookCompo'
+// ReactDOM.render(
+// <>
+//     <StateHook></StateHook>
+// </>,
+// document.getElementById('root')
+// );
+
+
+//10 hook useState Challenge
+// import {GetTime} from './HookChallenge'
+// ReactDOM.render(
+// <>
+//     <GetTime/>
+// </>,
+// document.getElementById('root')
+// );
+
+
+//11 Digital practical
+// import {DigitalClock} from './DigitalClock';
+
+// ReactDOM.render(
+//     <>
+//         <DigitalClock/>
+//     </>,
+//     document.getElementById('root')
+// )
+
+
+// 12 Events in React
+// import BtnEvent from "./Events";
+
+// ReactDOM.render(<BtnEvent/>,document.getElementById('root'));
+
+
+// 13 React forms
+// import {Form} from './FormCompo'
+
+// ReactDOM.render(<><Form/></>,document.getElementById('root'))
+
+
+// 14 Handling Complex Multiple Input Form States in React
+// import {HandleComplexForm} from './ComplexForm'
+
+// ReactDOM.render(<><HandleComplexForm/></>,document.getElementById('root'));
+
+
+// 15 Handling Complex Multiple Input Form with two lines
+import {UseStateEasy} from './UseStateEasy'
+
+ReactDOM.render(<UseStateEasy/>,document.getElementById('root'));
