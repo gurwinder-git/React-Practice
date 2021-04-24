@@ -293,7 +293,7 @@ input[type="submit"] {
 
 /* 15 Handling Complex Multiple Input Form with two lines */
 
-body{
+/* body{
   height: 100vh;
   display: flex;
   align-items: center;
@@ -319,4 +319,182 @@ input[type="submit"] {
   font-size: x-large;
   padding: 0.3rem 2rem;
   cursor: pointer;
+} */
+
+
+
+/* 16 ToDo list */
+/* #root{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(208, 248, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoDiv {
+  height: 399px;
+  width: 387px;
+  border-radius: 1rem;
+  padding-top: 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 14px;
+}
+
+h1 {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  color: teal;
+}
+
+.todoDiv div {
+  text-align: center;
+}
+
+input[type="button"] {
+  padding: 0px 15px 7px 16px;
+  border-radius: 36px;
+  margin-left: 9px;
+  font-size: xx-large;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+input[type="text"] {
+  width: 14em;
+  background-color: #b0e0e600;
+  padding: 8px 11px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+  outline: none;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: rgb(163, 163, 163);
+}
+
+input[type="button"]:hover {
+  background-color: mediumseagreen;
+}
+input[type="button"]:active{
+  background-color: rgb(22, 129, 70);
+}
+
+li {
+  font-size: x-large;
+}
+
+.fa:hover {
+  cursor: pointer;
+} */
+
+
+
+/* 18 Changing the Title value of Website on Button Click */
+/* button {
+  display: block;
+    font-size: xx-large;
+    padding: 5px;
+    margin: auto;
+    width: 147px;
+    margin-top: 2rem;
+} */
+
+
+
+/* 19 pokemon api */
+/* #root{
+  text-align: center;
+  margin-top: 10px;
+}
+
+select {
+  font-size: x-large;
+} */
+
+
+
+/* 20 React DOM Router */
+
+#root{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  background-color: lightblue;
+}
+nav{
+  background-color: brown; 
+  margin: 0.2% 0%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 0px;
+}
+
+li{
+  margin: 0pc 10px;
+  font-weight: bold;
+}
+
+a.active_class{
+  border-bottom: 2px solid rgb(95, 19, 64);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.main{
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 14em;
+  background-color: #b0e0e600;
+  padding: 8px 11px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+  outline: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: rgb(0, 105, 131);
+}
+
+
+img {
+  height: 25em;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+h2 {
+  color: #004556;
+  line-height: 61px;
 }

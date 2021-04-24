@@ -205,6 +205,46 @@ import './index.css';
 
 
 // 15 Handling Complex Multiple Input Form with two lines
-import {UseStateEasy} from './UseStateEasy'
+// import {UseStateEasy} from './UseStateEasy'
 
-ReactDOM.render(<UseStateEasy/>,document.getElementById('root'));
+// ReactDOM.render(<UseStateEasy/>,document.getElementById('root'));
+
+
+//16 ToDo list
+// import ToDoUI from './ToDoList'
+
+// ReactDOM.render(<ToDoUI/>,document.getElementById('root'));
+
+
+//17 npm count down
+// import { CountdownCircleTimer } from 'react-countdown-circle-timer'
+
+// ReactDOM.render(<CountdownCircleTimer
+//     isPlaying
+//     duration={10}
+//     colors={[
+//       ['#004777', 0.33],
+//       ['#F7B801', 0.33],
+//       ['#A30000', 0.33],
+//     ]}
+//   >
+//     {({ remainingTime }) => remainingTime}
+//   </CountdownCircleTimer>,document.getElementById('root'));
+
+
+// 18 Changing the Title value of Website on Button Click
+// import {Changetitle} from './Changetitle';
+// ReactDOM.render(<Changetitle/>,document.getElementById('root'));
+
+// //19 pokemon api
+// import PokApi from './PokemonApi';
+// ReactDOM.render(<PokApi/>,document.getElementById('root'));
+
+
+
+// 20 React DOM Router
+import Home from './Home';
+import {BrowserRouter} from 'react-router-dom';
+ReactDOM.render(<><BrowserRouter>
+                    <Home/> 
+                </BrowserRouter></>,document.getElementById('root'))
